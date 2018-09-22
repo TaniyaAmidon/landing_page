@@ -1,0 +1,115 @@
+* {
+    font-size:100%;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-size: 16px;
+    background-color: #f5e7d4;
+    text-align: center;
+}
+    
+
+.pageheader h1 {
+    font-family: 'Codystar';
+    font-size: 40px;
+    padding: 1rem 0 0.5rem 0;
+    color: #96ceb4;
+   
+}
+
+
+
+.pageheader p{
+    font-family: 'Combo';
+    font-size: 20px;
+    padding: 0 0 1rem 0;
+    color: #ff6f69;
+    
+}
+
+.pageheader {
+    text-align: center;
+    
+}
+
+.pageheader img {
+    max-width: 100%;
+    height: auto;
+}
+
+#primarynav {
+    font-family: 'Combo';
+    background-color: #96ceb4;
+    text-align: center;
+   
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    border-right: 1px solid #ff6f69;
+    display: inline-block;
+    min-width: 200px;
+    padding: 0.8rem;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#content {
+ font-family: 'Combo';
+ background-color: #f5e7d4;
+}
+
+.introduction {
+    padding: 6rem;
+}
+
+.introduction h2 {
+    font-size: 26px;
+    padding-bottom: 1rem;
+}
+
+.homepagephotos {
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ff6f69;
+    
+}
+
+.homepagephotos img {
+    max-width: 100%;
+    height: auto;
+}
+.reviewphotos img  {
+    padding: 1rem;
+    
+}
+
+.reviews {
+   padding: 0 0 2rem 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.pagefotter {
+    background-color: #96ceb4;
+    padding: 2rem;
+
+}
